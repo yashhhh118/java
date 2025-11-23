@@ -22,8 +22,8 @@ public class MultilevelInheritance{
  public static void main(String[] args) {
         SportsCar mySportsCar = new SportsCar();
         
-        mySportsCar.msg();         
-        mySportsCar.drive();        
+        mySportsCar.msg();         // Inherited from Vehicle
+        mySportsCar.drive();        // Inherited from Car
         System.out.println(mySportsCar.brand + " " + mySportsCar.model + " " + mySportsCar.maxSpeed);
     }   
 }
